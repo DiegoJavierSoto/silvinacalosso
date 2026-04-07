@@ -1,0 +1,107 @@
+<section id="resultados" class="py-32 px-6 relative overflow-hidden bg-brand-beige">
+  <div class="max-w-6xl mx-auto relative z-10">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16 space-y-6">
+      <span class="text-brand-gold font-body tracking-widest uppercase text-[10px] font-black">
+        Resultados Tangibles
+      </span>
+
+      <h2 class="title-display text-4xl md:text-5xl text-brand-black leading-tight">
+        ¿Qué cambia cuando dejás de exigirte y empezás a <span class="serif-italic text-brand-blue">entenderte</span>?
+      </h2>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-8">
+      
+      <div class="group p-8 md:p-10 bg-white rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-stone-100 hover:border-gray-200 transition-all duration-300">
+        <div class="flex items-center gap-4 mb-2">
+          <div class="w-12 h-12 rounded-full bg-stone-100 flex items-center justify-center">
+            <i class="fa-solid fa-xmark text-gray-400 text-xl"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-500">
+              {{ beforeData.title }}
+            </h3>
+            <p class="text-sm font-medium text-gray-400 mt-1 uppercase tracking-widest text-[10px]">
+              {{ beforeData.subtitle }}
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-3 my-8">
+          @for (indicator of beforeData.indicators; track indicator.label) {
+            <div class="flex items-center justify-between p-4 bg-stone-50 rounded-md">
+              <div class="flex items-center gap-3">
+                <i [class]="indicator.icon + ' text-gray-400 w-5 text-center'"></i>
+                <span class="text-gray-500 font-medium text-sm">{{ indicator.label }}</span>
+              </div>
+              <span class="font-bold text-gray-400 text-sm tracking-wide">
+                {{ indicator.value }}
+              </span>
+            </div>
+          }
+        </div>
+
+        <div class="space-y-3">
+          @for (outcome of beforeData.outcomes; track outcome) {
+            <div class="flex items-center gap-3 text-gray-400">
+              <i class="fa-solid fa-xmark text-xs opacity-50"></i>
+              <span class="text-sm font-light">{{ outcome }}</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="group p-8 md:p-10 bg-white rounded-xl shadow-[0_10px_40px_rgba(42,91,122,0.1)] border-t-[4px] border-brand-blue transition-all duration-300 relative overflow-hidden">
+        
+        <div class="absolute top-6 right-6 px-4 py-1 bg-brand-blue bg-opacity-10 text-brand-blue text-[10px] font-black uppercase tracking-widest rounded-full">
+          Bienestar Inteligente
+        </div>
+
+        <div class="flex items-center gap-4 mb-2">
+          <div class="w-12 h-12 rounded-full bg-brand-blue bg-opacity-10 flex items-center justify-center">
+            <i class="fa-solid fa-check text-brand-blue text-xl"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-brand-black">
+              {{ afterData.title }}
+            </h3>
+            <p class="text-sm font-medium text-brand-blue mt-1 uppercase tracking-widest text-[10px]">
+              {{ afterData.subtitle }}
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-3 my-8">
+          @for (indicator of afterData.indicators; track indicator.label) {
+            <div class="flex items-center justify-between p-4 bg-brand-blue bg-opacity-[0.03] rounded-md group/item hover:bg-opacity-10 transition-colors">
+              <div class="flex items-center gap-3">
+                <i [class]="indicator.icon + ' text-brand-blue w-5 text-center'"></i>
+                <span class="text-brand-black font-semibold text-sm">{{ indicator.label }}</span>
+              </div>
+              <span class="font-bold text-brand-blue text-sm tracking-wide">
+                {{ indicator.value }}
+              </span>
+            </div>
+          }
+        </div>
+
+        <div class="space-y-3">
+          @for (outcome of afterData.outcomes; track outcome) {
+            <div class="flex items-center gap-3 text-brand-blue">
+              <i class="fa-solid fa-wand-magic-sparkles text-[10px] opacity-70"></i>
+              <span class="text-sm font-medium">{{ outcome }}</span>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 p-8 bg-white border-l-[3px] border-brand-gold shadow-[5px_5px_0px_#E8E2DA] text-center max-w-3xl mx-auto">
+      <p class="text-brand-black leading-relaxed">
+        <strong class="text-brand-gold font-black uppercase tracking-widest text-[11px] block mb-2">Y en profesionales líderes:</strong> 
+        <span class="font-light italic text-lg">Mejora tu enfoque, tu productividad y el impacto en otros.</span>
+      </p>
+    </div>
+  </div>
+</section>

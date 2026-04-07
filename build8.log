@@ -1,0 +1,542 @@
+﻿
+> marca-personal@0.0.0 build
+> ng build
+
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+Application bundle generation failed. [2.622 seconds] - 2026-04-07T23:10:26.186Z
+
+node.exe : [1m[31m[31mX 
+[41;31m[[41;97mERROR[41;
+31m][0m [1mTS2307: 
+Cannot find module './compo
+nents/layout/navbar/navbar.
+component' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+En C:\Program 
+Files\nodejs\npm.ps1: 29 
+Carácter: 3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo         
+     : NotSpecified: ([1  
+  m[31m[31mX...r-compi   
+ ler][0m:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+
+    src/app/app.component.t
+s:2:32:
+[37m      2 Ôöé 
+...vbarComponent } from [3
+2m'./components/layout/navb
+ar/navbar.component'[37m;
+        ÔòÁ                
+         [32m~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/layout
+/footer/footer.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:3:32:
+[37m      3 Ôöé 
+...oterComponent } from [3
+2m'./components/layout/foot
+er/footer.component'[37m;
+        ÔòÁ                
+         [32m~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/hero/h
+ero.component' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:4:30:
+[37m      4 Ôöé import { 
+HeroComponent } from [32m'
+./components/hero/hero.comp
+onent'[37m;
+        ÔòÁ                
+               [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/punto-
+partida/punto-partida.compo
+nent' or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:5:38:
+[37m      5 Ôöé ...ponent 
+} from [32m'./components/p
+unto-partida/punto-partida.
+component'[37m;
+        ÔòÁ                
+  [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/metodo
+/metodo.component' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:6:32:
+[37m      6 Ôöé ...rt { 
+MetodoComponent } from [32
+m'./components/metodo/metod
+o.component'[37m;
+        ÔòÁ                
+                [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/result
+ados/resultados.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:7:36:
+[37m      7 Ôöé 
+...dosComponent } from [32
+m'./components/resultados/r
+esultados.component'[37m;
+        ÔòÁ                
+        [32m~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/trayec
+toria/trayectoria.component
+' or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:8:37:
+[37m      8 Ôöé 
+...aComponent } from [32m'
+./components/trayectoria/tr
+ayectoria.component'[37m;
+        ÔòÁ                
+      [32m~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/prueba
+-social/prueba-social.compo
+nent' or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:9:38:
+[37m      9 Ôöé ...ponent 
+} from [32m'./components/p
+rueba-social/prueba-social.
+component'[37m;
+        ÔòÁ                
+  [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/sistem
+as-vida/sistemas-vida.compo
+nent' or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:10:38:
+[37m      10 Ôöé ...onent 
+} from [32m'./components/s
+istemas-vida/sistemas-vida.
+component'[37m;
+         ÔòÁ               
+  [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mTS2307: Cannot find 
+module './components/contac
+to-cta/contacto-cta.compone
+nt' or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:11:37:
+[37m      11 Ôöé 
+...mponent } from [32m'./c
+omponents/contacto-cta/cont
+acto-cta.component'[37m;
+         ÔòÁ               
+    [32m~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:17:4:
+[37m      17 Ôöé     
+[32mNavbarComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:17:4:
+[37m      17 Ôöé     
+[32mNavbarComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:18:4:
+[37m      18 Ôöé     
+[32mFooterComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:18:4:
+[37m      18 Ôöé     
+[32mFooterComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:19:4:
+[37m      19 Ôöé     
+[32mHeroComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:19:4:
+[37m      19 Ôöé     
+[32mHeroComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:20:4:
+[37m      20 Ôöé     [32m
+PuntoPartidaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:20:4:
+[37m      20 Ôöé     [32m
+PuntoPartidaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:21:4:
+[37m      21 Ôöé     
+[32mMetodoComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:21:4:
+[37m      21 Ôöé     
+[32mMetodoComponent[37m,
+         ÔòÁ     
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:22:4:
+[37m      22 Ôöé     [32m
+ResultadosComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:22:4:
+[37m      22 Ôöé     [32m
+ResultadosComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:23:4:
+[37m      23 Ôöé     [32m
+TrayectoriaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:23:4:
+[37m      23 Ôöé     [32m
+TrayectoriaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:24:4:
+[37m      24 Ôöé     [32m
+PruebaSocialComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:24:4:
+[37m      24 Ôöé     [32m
+PruebaSocialComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:25:4:
+[37m      25 Ôöé     [32m
+SistemasVidaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:25:4:
+[37m      25 Ôöé     [32m
+SistemasVidaComponent[37m,
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG1010: 'imports' must 
+be an array of components, 
+directives, pipes, or 
+NgModules.
+  Value could not be 
+determined statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:26:4:
+[37m      26 Ôöé     [32m
+ContactoCtaComponent[37m
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.component.t
+s:26:4:
+[37m      26 Ôöé     [32m
+ContactoCtaComponent[37m
+         ÔòÁ     [32m~~~~~
+~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERR
+OR[41;31m][0m 
+[1mNG2008: Could not find 
+stylesheet file 
+'./app.component.css'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.component.t
+s:29:12:
+[37m      29 Ôöé   
+styleUrl: [32m'./app.compo
+nent.css'[37m
+         ÔòÁ             [
+32m~~~~~~~~~~~~~~~~~~~~~[0
+m
+
+[39m[22m

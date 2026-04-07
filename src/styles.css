@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .title-display {
+    @apply font-sans font-black leading-[1.1] tracking-[-0.02em] uppercase;
+  }
+
+  .serif-italic {
+    @apply font-serif italic font-bold lowercase tracking-normal text-brand-blue;
+  }
+
+  .accent-line {
+    @apply h-px bg-brand-gold w-10;
+  }
+
+  .card-elegant {
+    @apply bg-white rounded-sm shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] flex flex-col h-full;
+  }
+  
+  .card-elegant:hover {
+    @apply -translate-y-[5px] shadow-[0_10px_30px_rgba(0,0,0,0.05)];
+  }
+
+  .btn-elegant {
+    @apply bg-brand-black text-white py-5 px-10 font-bold uppercase tracking-[0.15em] text-xs transition-all duration-300 inline-block hover:bg-brand-blue hover:tracking-[0.2em];
+  }
+
+  .section-label {
+    @apply text-[11px] font-bold tracking-[0.4em] uppercase text-brand-gold;
+  }
+
+  .profile-photo {
+    @apply w-[220px] h-[220px] rounded-sm object-cover shadow-[20px_20px_0px_#E8E2DA];
+  }
+
+  .gold-detail {
+    @apply text-brand-gold font-extrabold uppercase text-[12px] tracking-[0.2em];
+  }
+
+  .image-hero-container {
+    @apply relative h-[500px] overflow-hidden rounded-sm shadow-2xl;
+  }
+
+  .image-hero-container img {
+    @apply w-full h-full object-cover;
+  }
+  
+  .biography-box {
+    @apply bg-white border-l-[4px] border-brand-gold p-10 shadow-[10px_10px_0px_#E8E2DA];
+  }
+
+  .footer-name {
+    @apply font-sans font-bold italic uppercase tracking-[0.8em] text-brand-blue mb-10 text-[1.1rem];
+  }
+
+  .footer-pillars {
+    @apply flex justify-center gap-10 flex-wrap uppercase tracking-[0.4em] text-[10px] font-normal text-[#A0AEC0] max-md:flex-col max-md:gap-5;
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: theme('colors.brand-beige');
+    color: theme('colors.brand-black');
+}
