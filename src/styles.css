@@ -44,7 +44,7 @@
   }
 
   .image-hero-container img {
-    @apply w-full h-full object-cover;
+    @apply w-full h-full object-cover object-top;
   }
   
   .biography-box {

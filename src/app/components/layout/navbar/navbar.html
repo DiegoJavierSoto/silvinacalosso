@@ -1,28 +1,33 @@
 <nav class="p-8 flex justify-between items-center bg-transparent relative z-50 max-w-7xl mx-auto">
-    <div class="font-black text-lg tracking-widest uppercase border-b-2 border-black pb-1 relative z-50">Silvina Calosso</div>
-    
+    <div class="font-black text-lg tracking-widest uppercase border-b-2 border-black pb-1 relative z-50">Silvina Calosso
+    </div>
+
     <!-- Desktop Menu -->
     <div class="hidden md:flex gap-8 text-[10px] font-bold uppercase tracking-[0.3em] text-gray-500">
         <a href="#metodo" class="hover:text-black transition">Método</a>
+        <a href="#programas" class="hover:text-black transition">Servicios</a>
         <a href="#trayectoria" class="hover:text-black transition">Trayectoria</a>
-        <a href="#programas" class="hover:text-black transition">Sistemas</a>
         <a href="#contacto" class="hover:text-black transition">Contacto</a>
     </div>
 
     <!-- Mobile Menu Button -->
-    <button class="md:hidden flex flex-col justify-center items-center gap-1.5 z-50 w-8 h-8 relative cursor-pointer" (click)="toggleMenu()" aria-label="Toggle Menu">
-        <span class="block w-6 h-0.5 bg-black transition-all duration-300" [class.rotate-45]="isMenuOpen" [class.translate-y-2]="isMenuOpen"></span>
+    <button class="md:hidden flex flex-col justify-center items-center gap-1.5 z-50 w-8 h-8 relative cursor-pointer"
+        (click)="toggleMenu()" aria-label="Toggle Menu">
+        <span class="block w-6 h-0.5 bg-black transition-all duration-300" [class.rotate-45]="isMenuOpen"
+            [class.translate-y-2]="isMenuOpen"></span>
         <span class="block w-6 h-0.5 bg-black transition-all duration-300" [class.opacity-0]="isMenuOpen"></span>
-        <span class="block w-6 h-0.5 bg-black transition-all duration-300" [class.-rotate-45]="isMenuOpen" [class.-translate-y-2]="isMenuOpen"></span>
+        <span class="block w-6 h-0.5 bg-black transition-all duration-300" [class.-rotate-45]="isMenuOpen"
+            [class.-translate-y-2]="isMenuOpen"></span>
     </button>
 </nav>
 
 <!-- Mobile Menu Overlay -->
 @if (isMenuOpen) {
-    <div class="md:hidden fixed inset-0 bg-white/95 backdrop-blur-md z-40 flex flex-col justify-center items-center gap-10 text-sm font-bold uppercase tracking-[0.3em] text-gray-900 transition-opacity">
-        <a href="#metodo" (click)="toggleMenu()" class="hover:text-gray-500 transition">Método</a>
-        <a href="#trayectoria" (click)="toggleMenu()" class="hover:text-gray-500 transition">Trayectoria</a>
-        <a href="#programas" (click)="toggleMenu()" class="hover:text-gray-500 transition">Sistemas</a>
-        <a href="#contacto" (click)="toggleMenu()" class="hover:text-gray-500 transition">Contacto</a>
-    </div>
+<div
+    class="md:hidden fixed inset-0 bg-white/95 backdrop-blur-md z-40 flex flex-col justify-center items-center gap-10 text-sm font-bold uppercase tracking-[0.3em] text-gray-900 transition-opacity">
+    <a href="#metodo" (click)="toggleMenu()" class="hover:text-gray-500 transition">Método</a>
+    <a href="#programas" (click)="toggleMenu()" class="hover:text-gray-500 transition">Servicios</a>
+    <a href="#trayectoria" (click)="toggleMenu()" class="hover:text-gray-500 transition">Trayectoria</a>
+    <a href="#contacto" (click)="toggleMenu()" class="hover:text-gray-500 transition">Contacto</a>
+</div>
 }
